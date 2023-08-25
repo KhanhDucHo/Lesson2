@@ -82,19 +82,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
         </div>
     </div>
-    <div class="modal modal-message fade" id="ModalReset" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <i class="fa fa-close"></i>
-                    </button>
-                    <h2>Thành công</h2>
-                    <p>Mật khẩu đã được gửi đến gmail của bạn.</p>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="modal modal-message fade" id="ModalWrong1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -116,7 +103,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <i class="fa fa-close"></i>
                     </button>
                     <h2>Thất bại</h2>
-                    <p>Tên đăng nhập không tồn tại! Vui lòng nhập lại.</p>
+                    <p>Email không tồn tại! Vui lòng nhập lại.</p>
                 </div>
             </div>
         </div>
