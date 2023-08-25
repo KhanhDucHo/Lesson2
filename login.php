@@ -163,14 +163,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             };
         </script>
         <?php
-        } elseif ($_SESSION['redirect_from'] === 'reset-pass') {
-        ?>
-        <script>
-            window.onload = function() {
-                $('#ModalReset').modal('show');
-            };
-        </script>
-        <?php
         }
     }
     // Unset the 'redirect_from' session variable to prevent further redirections
